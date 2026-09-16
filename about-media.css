@@ -1,0 +1,209 @@
+@media (max-width:1103px) {
+    /* ============================== meet people start ========================= */
+
+    .meet-people__image-container {
+        height: 200px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        box-shadow: var(--shadow);
+    }
+    /* ============================== meet people end ========================= */
+
+
+}
+
+@media (max-width:986px) {
+    /* ==============================our story start ========================= */
+    .Our-story {
+        padding: 90px 0 80px;
+    }
+    /* ==============================our story end ========================= */
+
+
+    /* ==============================rooted section start ========================= */
+    /* ==============================left part start ========================= */
+    .rooted {
+        padding: 90px 0;
+    }
+
+    .rooted__container {
+        gap: 30px;
+    }
+
+    .rooted__left {
+        max-height: 340px;
+    }
+    /* ==============================left part end ========================= */
+    /* ==============================rooted section end ========================= */
+
+
+    /* ==============================what drive us section start ========================= */
+    .what-drives-us {
+        padding: 90px 0;
+    }
+
+    .what-drives-us__cards {
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 44px;
+        max-width: 700px ;
+        margin: 0 auto;
+    }
+
+    .what-drives-us__card {
+        padding: 22px;
+    }
+
+    .what-drives-us__card:nth-child(3) {
+        grid-column: 1/ -1;
+        justify-self: center;
+    }
+    /* ============================== what drive us section end ========================= */
+
+
+    /* ============================== journey section start ========================= */
+    .journey {
+        padding: 90px 0;
+    }
+
+    .journey__journeys > div {
+        padding-bottom: 30px;
+    }
+
+    .journey__journeys > div::before {
+        width: 10px ;
+        height: 10px ;
+    }
+
+    .journey__journeys > div b {
+        font-size: 20px;
+    }
+
+    .journey__journeys > div h4 {
+        font-size: 16px;
+    }
+
+    .journey__journeys > div p {
+        font-size: 15px;
+    }
+    /* ============================== journey section end ========================= */
+
+    /* ============================== meet people start ========================= */
+    .meet-people {
+        padding: 90px 0 ;
+    }
+
+    .meet-people__grid {
+        margin-top: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 800px;
+        margin: 30px auto 0;
+    }
+
+    .meet-people__card:nth-child(4) {
+        grid-column: 2;
+    }
+
+    .meet-people__image-container {
+        height: 250px;
+    }
+
+    /* ============================== meet people end ========================= */
+
+}
+
+@media (max-width:847px) {
+    /* ============================== meet people start ========================= */
+    .meet-people__grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 550px;
+    }
+    /* ============================== meet people end ========================= */
+
+
+            
+    /* ==============================rooted section start ========================= */
+
+    .rooted__container {
+        grid-template-columns: 1fr;
+        gap: 44px;
+    }
+
+    .rooted__left {
+        max-height: 300px;
+    }
+    /* ==============================rooted section end ========================= */
+
+}
+
+
+@media (max-width:636px) {
+    .journey__journeys {
+        max-width: 300px;
+    }
+}
+
+@media (max-width:555px) {
+    /* ==============================our story start ========================= */
+
+    .Our-story {
+        padding: 40px 0 80px;
+    }
+    /* ==============================our story end ========================= */
+
+    /* ==============================rooted section start ========================= */
+    .rooted {
+        padding: 40px 0;
+    }
+
+    .rooted__left {
+        max-height: 200px;
+    }
+    /* ==============================rooted section end ========================= */
+
+    
+    /* ==============================what drive us section start ========================= */
+    .what-drives-us {
+        padding: 40px 0;
+    }
+
+    .what-drives-us__cards {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    /* ==============================what drive us section end ========================= */
+    
+    
+    /* ============================== journey section start ========================= */
+    .journey {
+        padding: 40px 0;
+    }
+
+    /* ============================== journey section end ========================= */
+
+    /* ============================== meet people start ========================= */
+    .meet-people {
+        padding: 40px 0 ;
+    }
+
+    .meet-people__grid {
+        margin-top: 24px auto 0;
+        grid-template-columns: 1fr;
+        gap: 32px;
+        max-width:250px;
+    }
+
+
+    .meet-people__card:nth-child(4) {
+        grid-column: auto;
+    }
+    /* ============================== meet people end ========================= */
+    
+    
+}

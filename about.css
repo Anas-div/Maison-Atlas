@@ -1,0 +1,299 @@
+/* ==============================our story start ========================= */
+.Our-story {
+    background-color: #F1EAE0;
+    text-align: center;
+    padding: 120px 0 80px;
+}
+
+.Our-story__container > h1 {
+    font-family: var(--fh);
+    color: var(--text-color);
+}
+
+.Our-story__container p:nth-child(3) {
+    margin-top: 16px;
+}
+/* ==============================our story end ========================= */
+
+
+
+
+/* ==============================rooted section start ========================= */
+/* ==============================left part start ========================= */
+.rooted {
+    padding: 112px 0;
+    background-color: var(--background-color);
+}
+
+.rooted__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 64px;
+    align-items: center;
+}
+
+.rooted__left {
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0 5px var(--primary);
+}
+
+.rooted__left img {
+    width: 100%;
+    height: fit-content;
+}
+/* ==============================left part end ========================= */
+
+
+
+/* ==============================right part start ========================= */
+.rooted__right h2 {
+    font-family: var(--fh);
+    color: var(--text-color);
+}
+
+.rooted__right .divider {
+    justify-self: start;
+}
+
+.rooted__right p {
+    color: var(--muted);
+}
+
+.rooted__right > p:nth-child(5) {
+    margin-top: 16px;
+}
+
+.rooted__right > p:nth-child(6) {
+    margin-top: 32px;
+    font-style: italic;
+    font-size: 22px;
+    font-family: var(--fh);
+    color: var(--dark);
+}
+/* ==============================right part end ========================= */
+/* ==============================rooted section end ========================= */
+
+
+
+/* ==============================what drive us section start ========================= */
+.what-drives-us {
+    padding: 112px 0;
+    text-align: center;
+    background-color: #F1EAE0;
+}
+
+.what-drives-us__container > h2 {
+    font-family: var(--fh);
+    color: var(--text-color);
+}
+
+.what-drives-us__cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 32px;
+    text-align: start;
+    margin-top: 64px;
+}
+
+.what-drives-us__card {
+    background: #FFFDF9;
+    border: 1px solid #E4DACB;
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 2px 8px rgba(43, 33, 24, .06);
+    transition: .25s;
+    opacity: 0;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+}
+
+.what-drives-us__card:hover {
+    box-shadow: var(--shadow);
+    border-color: var(--accent);
+}
+
+.what-drives-us__card > p:nth-child(1) {
+    font-size: 40px;
+    font-family: var(--fh);
+    color: var(--accent);
+}
+
+.what-drives-us__card > h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 16px 0 12px;
+    font-family: var(--fh);
+}
+
+.what-drives-us__card > P:nth-child(3) {
+    color: var(--muted);
+}
+
+/* ============================== what drive us section end ========================= */
+
+
+
+
+
+/* ============================== journey section start ========================= */
+.journey {
+    padding: 112px 0;
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.journey__container > h2 {
+    font-family: var(--fh);
+    color: var(--text-color);
+}
+
+.journey__journeys {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 64px auto 0 auto;
+    padding-left: 40px;
+    border-left: 1px solid #E4DACB;
+}
+
+.journey__journeys > div {
+    line-height: 25px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.journey__journeys > div::before {
+    content: '';
+    width: 12px ;
+    height: 12px ;
+    background-color: var(--accent);
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    left: -46px;
+    top: 0;
+}
+
+.journey__journeys > div b {
+    font-size: 24px;
+    color: var(--primary);
+    font-family: var(--fh);
+}
+
+.journey__journeys > div h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.journey__journeys > div p {
+    color: var(--muted);
+}
+
+
+
+/* ============================== journey section end ========================= */
+
+
+/* ============================== meet people start ========================= */
+.meet-people {
+    padding: 112px 0 ;
+    background-color: #F1EAE0;
+    text-align: center;
+}
+
+.meet-people__container > h2 {
+    font-family: var(--fh);
+    color: var(--text-color);
+}
+
+.meet-people__grid {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+}
+
+.meet-people__card {
+    background: var(--surface);
+    border: 1px solid #E4DACB;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(43, 33, 24, .06);
+    transition: .25s;
+    opacity: 0;
+    transform: translateY(50px);
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -ms-transform: translateY(50px);
+    -o-transform: translateY(50px);
+}
+
+.meet-people__image-container {
+    border: 1px solid var(--primary);
+    height: 250px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+
+.meet-people__image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.meet-people__card:hover {
+    transform: translateY(-6px);
+    box-shadow: var(--shadow);
+    border-color: var(--accent);
+}
+
+.meet-people__card > h4 {
+    font-size: 18px ;
+    color: var(--dark);
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+
+.meet-people__card > p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+
+/* ============================== meet people end ========================= */
+
+
+
+
+
+
+
+
+
+

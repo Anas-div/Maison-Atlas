@@ -1,0 +1,394 @@
+@media (max-width:1208px) {
+    .container-max-width {
+        max-width: 1100px;
+    }
+
+}
+
+
+@media (max-width:1100px) {
+    .container-max-width {
+        max-width: 1000px;
+    }
+
+    .header__container {
+        padding: 0 10px;
+    }
+
+    .lead-paragraph {
+        font-size: 17px;
+    }
+    
+    .heading-2 {
+        font-size: 30px;
+    }
+    
+    .heading-1 {
+    font-size: 42px;
+    }
+    
+    .heading-3 {
+        font-size: 20px;
+    }
+
+    .body-text {
+        font-size: 14px;
+    }
+
+    .primary-btn {
+        height: 42px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .secondary-btn {
+        height: 42px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .ghost-btn {
+        height: 42px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        justify-self: center;
+    }
+
+    .hero{
+        gap: 30px;
+        align-items: start;
+    }
+
+
+
+    .hero__right .img-container {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+
+
+
+
+@media (max-width:900px) {
+    .open-close-menu {
+        display: flex;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 9999;
+    }
+
+    /*============================ header start=========================  */
+    .header__nav {
+        flex-direction: column;
+        position: absolute;
+        top: -800px;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        padding: 20px 0;
+        gap: 25px;
+
+    }
+
+    .header__nav > li a {
+        font-size: 18px;
+    }
+
+    .header__container {
+        position: relative;
+        justify-content: flex-start;
+    }
+
+    .header__container .book-a-visit {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+    }
+
+    /*============================ header end =========================  */
+
+    /*============================ services start=========================  */
+    
+    #services {
+        padding: 80px;
+    }
+
+
+    .services > h2 {
+        font-size: 35px;
+    }
+
+    .services__cards__container {
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        margin-top: 44px;
+    }
+
+
+    .services__cards__container .service__card {
+        padding: 26px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+
+    .services__cards__container .service__card .card-3 {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+
+    .services__cards__container .service__card .icon {
+        width: 46px;
+        height: 46px ;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+
+    .services__cards__container .service__card > h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .services__cards__container .service__card > p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    /*============================ services end=========================  */
+    /* =============================== band start====================== */
+
+    .band__child > div > b {
+        font-size: 40px;
+        padding-bottom: 7px;
+    }
+
+    .band__child {
+        padding: 60px 0;
+    }
+
+    .band__child > div > span {
+        font-size: 12px;
+    }
+    /* =============================== band end====================== */
+    /* =============================== Testimonials start ====================== */
+    .testimonials {
+        padding: 80px 20px;
+    }
+
+    .testimonials__cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding-top: 30px;
+    }
+
+    .testimonials__oneCard {
+        border-radius: 15px;
+        padding: 25px;
+    }   
+
+    .testimonials__oneCard:nth-child(3) {
+        grid-column: 1/-1;
+        justify-self: center;
+    }
+    /* =============================== Testimonials end ====================== */
+    /* =============================== second band start ====================== */
+    .band {
+        padding: 80px 0;
+    }
+    
+    .band__container > h2 {
+        padding-top: 10px;
+        margin-bottom: 25px;
+    }
+    /* =============================== second band end ====================== */
+
+    /* =============================== footer start ====================== */
+    footer {
+        background-color: var(--dark);
+        padding: 60px 20px 32px 20px;
+    }
+    /* =============================== footer end ====================== */
+    
+}
+
+
+
+
+@media (max-width:800px) {
+    #hero-section {
+        background-image: url(/IMAGES/hero-img.jpg);
+        position: relative;
+    }
+
+    #hero-section::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        z-index:0 ;
+    }
+
+
+    .hero {
+        grid-template-columns: 1fr;
+        position: relative;
+        z-index: 1;
+        padding: 0 10px;
+        min-height: fit-content;
+    }
+
+    .hero__left > h1 {
+        color: white;
+        max-width: 500px;
+    }
+
+    .hero__left > p {
+        color: white;
+    }
+
+    .secondary-mobile {
+        color: white;
+        border-color: white;
+    }
+
+    .secondary-mobile:hover {
+        border: none;
+    }
+
+    .rating b {
+        color: white;
+    }
+
+    .rating > div > span {
+        color: lightgrey;
+    }
+
+    .hero__right {
+        display: none;
+    }
+
+    /* =======================================services start ================ */
+    #services {
+        padding: 60px;
+    }
+    /* =======================================services end ================ */
+    /* =============================== Testimonials start ====================== */
+    .testimonials {
+        padding: 60px 20px;
+    }
+    /* =============================== Testimonials end ====================== */
+    /* =============================== second band start ====================== */
+    .band {
+        padding: 60px 0;
+    }
+    /* =============================== second band end ====================== */
+    
+}
+
+@media (max-width:655px) {
+    /* =============================== footer start ====================== */
+    .footer__container {
+        grid-template-columns: 2fr 1fr 1fr;
+        row-gap: 10px;
+        padding-bottom: 48px;
+        border-bottom: 1px solid rgba(245, 239, 230, .12);
+    }
+
+    .footer__container > div:nth-child(4) {
+        grid-column: 2;
+    }
+    /* =============================== footer end ====================== */
+
+}
+
+
+@media (max-width:530px){
+
+    .header__container .book-a-visit {
+        left: 70%;
+        transform: translateX(-70%);
+}
+    /* ========================================== hero start ======================== */
+    .hero {
+        text-align: center ;
+    }  
+    
+    .hero__left .buttons {
+        justify-self: center;
+    }
+
+    .hero__left .rating {
+        justify-self: center;
+    }
+    
+    /* ========================================== hero start ======================== */
+    
+    
+    /* ========================================== services start ======================== */
+    #services {
+        padding: 40px;
+    }
+
+
+    .services__cards__container {
+        grid-template-columns:1fr;
+        gap: 15px;
+        margin-top: 24px;
+    }
+    /* ========================================== servies end ======================== */
+    
+    /* =============================== Testimonials start ====================== */
+    .testimonials {
+        padding: 50px 20px;
+    }
+
+    .testimonials__cards {
+        grid-template-columns:  1fr;
+        gap: 20px;
+        padding-top: 10px;
+    }
+    /* =============================== Testimonials end ====================== */
+    
+
+    /* =============================== second band start ====================== */
+    .band {
+        padding: 40px 0;
+    }
+    .band .heading-2 {
+        font-size: 25px ;
+    }
+    /* =============================== second band end ====================== */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

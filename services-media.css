@@ -1,0 +1,102 @@
+@media (max-width:1100px) {
+    /* ===================================== services grid start ==================  */
+
+    
+    .services__cards__container .s-card {
+        padding: 28px;
+    }
+
+    .services__cards__container .s-card > .s-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .services__cards__container .s-card > h3 {
+        font-size: 20px;
+    }
+    /* ===================================== services grid end ==================  */
+    /* ===================================== questions start ==================  */
+
+    .questions__container{
+        max-width: 600px;
+    }   
+    /* ===================================== questions end ==================  */
+
+
+}
+
+
+@media (max-width:900px) {
+    /* ===================================== services grid start ==================  */
+    .services-grid-section > div {
+        grid-template-columns: repeat(2, 1fr) ;
+        max-width: 700px;
+    }
+
+    .services-grid-section {
+        padding: 90px 0 !important;
+    }
+    /* ===================================== services grid end ==================  */
+    /* ===================================== how we work section start ==================  */
+    .how-we-work {
+        padding: 90px 0;
+    }
+
+    .how-we-work__grid {
+        margin-top: 44px;
+    }
+    /* ===================================== how we work section end ==================  */
+ 
+    /* ===================================== packages section start ==================  */
+    .packages-section {
+        padding: 90px 0;
+    }
+
+    .packages__cards {
+        margin-top: 44px;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ===================================== packages section end ==================  */
+    
+}
+
+
+@media (max-width:583px) {
+    /* ===================================== services grid start ==================  */
+    .services-grid-section > div {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+
+    .services-grid-section {
+        padding: 60px 0 !important;
+    }
+    /* ===================================== services grid end ==================  */
+    /* ===================================== how we work section start ==================  */
+    .how-we-work {
+        padding: 60px 0;
+    }
+
+    /* ===================================== how we work section end ==================  */
+ 
+    /* ===================================== packages section start ==================  */
+    .packages-section {
+        padding: 60px 0;
+    }
+
+    .packages__cards {
+        margin-top: 44px;
+        grid-template-columns: 1fr;
+        max-width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ===================================== packages section end ==================  */
+}
+
+
+
+

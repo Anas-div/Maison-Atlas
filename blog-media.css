@@ -1,0 +1,51 @@
+@media (max-width:900px) {
+    /* =============================== design section start ===================== */
+    .design-section {
+        padding: 90px 0;
+    }
+
+    .design__container {
+        grid-template-columns: 1fr;
+        gap: 44px;
+        max-width: 600px;
+    }
+    /* =============================== design section end ===================== */
+
+    /* =============================== left part start ===================== */
+    .design__container .left-part {
+        height: 300px;
+        margin: 0 auto;
+    }
+    /* =============================== left part end ===================== */
+
+
+    /* =============================== journal grid start ===================== */
+    .blogs {
+        padding-bottom: 90px;
+    }
+    /* =============================== left grid start ===================== */
+    .blogs__container .left-grid {
+        grid-template-columns: 1fr;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    /* =============================== left grid end ===================== */
+
+    /* =============================== journal grid end ===================== */
+
+
+}
+
+@media (max-width:750px) {
+    /* =============================== journal grid start ===================== */
+    .blogs__container {
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 48px;
+    }
+    /* =============================== journal grid end ===================== */
+
+}
+
+
+
